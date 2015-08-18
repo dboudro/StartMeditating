@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Uni Light;
+    src: url("fonts/UniversLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: Uni Con;
+    src: url("fonts/UniversLTStd-ThinUltraCn.otf");
+}
+
+@font-face {
+    font-family: Uni;
+    src: url("fonts/UniversLTStd.otf");
+}
