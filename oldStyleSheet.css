@@ -1,11 +1,18 @@
+        html {
+	-webkit-font-smoothing: antialiased;
+}
+
+
 @font-face {
     font-family: Uni Light;
     src: url("fonts/UniversLTStd-Light.otf");
+    font-weight: 100;
 }
 
 @font-face {
     font-family: Uni Con;
-    src: url("fonts/UniversLTStd-ThinUltraCn.otf");
+    src: url("fonts/UniversLTStd-ThinUltraCn.otf") format('opentype');
+    font-weight: 100;
 }
 
 @font-face {

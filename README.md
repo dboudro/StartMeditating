@@ -1,5 +1,5 @@
 # Zafu
-Graphic Design 2 Project: A campaign advocating Meditation
+Graphic Design 2 Project: A design campaign advocating for Meditation
 
 
 
