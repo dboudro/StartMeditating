@@ -5,9 +5,8 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-    <link rel="shortcut icon" type="image/png"  href="Logos/zafuBlack.png">
+    <link rel="shortcut icon" href="favicon.ico">
     <title>Start Meditating</title>
-    <link rel="stylesheet" type="text/css" href="oldStyleSheet.css">
         
 
 
@@ -31,18 +30,20 @@
     body {
         background-color: white;
         color: black;
-        font-family: "Uni Light";
+        font-family: "futura-pt";
     }
     h1 {
         padding-left: 40px;
         margin-bottom: 0px;
     }
     #subtitle {
-        font-family: Uni Con;
-        font-size: 80px;
-        letter-spacing: 4px;
-        color: black;
-        display: inline;
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: 4px;
+        padding: 1px 2px;
+        background-color: #3fb34f;
+        color: white;
+        display: table;
     }
     footer {
         font-size: 12px;
@@ -137,7 +138,7 @@
         z-index: -100;
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%);
-        background: url(bgs/107.JPG) no-repeat;
+        background: url(bgs/107.JPG.jpg) no-repeat;
         background-size: cover;
 }
     #logo {
@@ -145,25 +146,43 @@
         width: 128px;
         height: 128px;
     }
-        
+    #audio-container {
+        margin-top: 18vh;
+    }
     </style>
 
 <body>
     
-    <img id="logo" src="Logos/zafuBlack.png">
+    <img id="logo" src="logo.png">
   
-    <h1 id="subtitle"> ZAFU </h1>
+    <p id="subtitle"> StartMeditating.org </p>
     <div id="main-container">
-     
-        
-        
-        <h1> currently under heavy construction: 8/18</h1>
-        
-        
+    <div id="links-container">
+    <ul> 
+        <li><a class="indigo" onmouseover="calm(); "href="http://calm.com">Calm.com</a></li>
+        <li><a class="blue" onmouseover="zenhabits();" href="http://zenhabits.net">Zenhabits</a></li>
+        <li><a class="green" onmouseover="headspace();" href="https://www.headspace.com/">Headspace</a></li>
+        <li><a class="yellow" onmouseover="coolidge();" href="http://coolidgeyoga.com/">Coolidge Corner Yoga</a></li>
+        <li><a class="orange" onmouseover="audio();" href="http://www.audiodharma.org/">Audio Dharma</a></li>
+        <li><a class="red" onmouseover="vipassana();" href="http://www.vipassanadhura.com/howto.htm">Guide to Vipassana Meditation</a></li>
+        <li><a class="amethyst" onmouseover="zafu();" href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=zafu">Zafu Cushions</a></li>
+         
+        <li><a class="blue" onmouseover="jewelry();" href=" https://www.etsy.com/search/jewelry?q=meditation">Jewelry</a></li>
+        <li><a class="green" onmouseover="zenpen();" href="http://zenpen.io">Zenpen.io</a></li>
+         <li><a class="yellow" onmouseover="meddit();" href="http://reddit.com/r/meditation">Meditation Subreddit</a></li>
+        <li><a class="orange" onmouseover="music();" href="https://www.youtube.com/playlist?list=PLxktT8aMunYT_XkD8TTQxY4Ww4d4-2CaD">Music to Meditate to</a></li>
+        <li><a class="red" onmouseover="koh();" href="http://andoperez.com/koh/">10 virtues of Koh</a></li>
+        <li><a class="amethyst" onmouseover="art();" href="https://www.kabbalahart.com/gallery/">Meditative Art</a></li>
+    </ul>
+     </div>
         
         <video autoplay muted loop poster="bgs/107.JPG" id="bgvid">
 <source src="video.mp4" type="video/mp4">
-        </video>
+</video>
+    <div id="image-container">
 
-    </body>
-</html>
+            <footer>
+
+        
+    </footer>
+    </div>
