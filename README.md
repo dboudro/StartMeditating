@@ -1,4 +1,4 @@
-# Zafu
+# StartMeditating
 Graphic Design 2 Project: A design campaign advocating for Meditation
 
 
