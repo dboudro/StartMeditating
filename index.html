@@ -148,9 +148,29 @@
         margin-top: 18vh;
     }
     #about {
-        font-size: 10px;
+        padding-left: 40px;
+        width: 80%;
+        color: white;
+        display: block;
+        float: left;
+        font-size: 16px;
         font-family: 'futura-pt';
+        opacity: .6;
     }
+    #about:hover {
+        opacity: 1;
+    }
+    #zafu-link {
+        background-color: #3fb34f;
+        padding: 1px 2px;
+        text-decoration: underline;
+    }
+    #zafu-link:visited {
+        background-color: #3fb34f;
+        color: #EEE;
+        text-decoration: line-through;
+    }
+    
     </style>
 
 <body>
@@ -176,24 +196,17 @@
         <li><a class="red" onmouseover="koh();" href="http://andoperez.com/koh/">10 virtues of Koh</a></li>
         <li><a class="amethyst" onmouseover="art();" href="https://www.kabbalahart.com/gallery/">Meditative Art</a></li>
     </ul>
+        <p id="about">This project is part of a larger design campaign advocating for daily meditation practice.      
+   
+    The new version of the website can be seen @ <a id="zafu-link" href="http://zafu.co">Zafu.co</a>
+        Created by Dylan Boudro, Summer 2 2015</p>
      </div>
-        <p id="about">This project is part of a larger design campaign advocating for daily meditation practice.  
-+    
-+    
-+    The new version of the website can be seen @ http://zafu.co
-+    
-+    Created by Dylan Boudro, Summer 2 2015</p>
+          </div>
+        
         <video autoplay muted loop poster="bgs/107.JPG" id="bgvid">
 <source src="video.mp4" type="video/mp4">
 </video>
-    <div id="image-container">
-
-            <footer>
-
-        
-    </footer>
-    </div>
-    </div>
+  
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
